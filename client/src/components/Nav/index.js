@@ -49,12 +49,12 @@ render() {
           <MDBNavbarNav right>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="twitter" />
+                <MDBIcon className="icon" fab icon="twitter" />
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="google-plus-g" />
+                <MDBIcon className="icon" fab icon="google-plus-g" />
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>

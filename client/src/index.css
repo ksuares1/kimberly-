@@ -12,6 +12,20 @@ code {
     monospace;
 }
 
+/* Homepage */
 .nav-color{
   background-color: blueviolet;
+}
+
+.icon{
+  color:white;
+}
+
+/* Footer */
+.footer-text{
+  color:white;
+}
+
+.footer-bg{
+  color:blueviolet;
 }
