@@ -27,10 +27,10 @@ render() {
               <MDBNavLink to="/">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/">Contact</MDBNavLink>
+              <MDBNavLink to="/contact">Contact</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/">Portfolio</MDBNavLink>
+              <MDBNavLink to="/portfolio">Portfolio</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
