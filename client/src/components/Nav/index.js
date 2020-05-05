@@ -18,7 +18,7 @@ render() {
     <Router>
       <MDBNavbar className="nav-color"  dark expand="md">
         <MDBNavbarBrand>
-          <strong className="white-text">Navbar</strong>
+          <strong className="white-text">Kimberly Suares</strong>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -40,8 +40,8 @@ render() {
                 <MDBDropdownMenu className="dropdown-default">
                   <MDBDropdownItem href="/">Skills</MDBDropdownItem>
                   <MDBDropdownItem href="/languages">Languages</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  <MDBDropdownItem href="/blog">Blog</MDBDropdownItem>
+                  <MDBDropdownItem href="/resume">Resume</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
