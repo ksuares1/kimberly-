@@ -7,5 +7,6 @@ Hi! I'm Kimberly Suares, Full Stack Web Developer and cookbook fanatic. This is 
 - React.js
 - Node.js
 - Javascript
+- Materialize
 
 ## Getting Started
