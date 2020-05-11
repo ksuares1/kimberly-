@@ -15,6 +15,7 @@ function App() {
       <Navbar/>
       <div>
         <Route exact path="/" component={HomePage}/ >
+        
         {/* <Route exact path="/portfolio" component={ProjectPage}/> */}
       
     </div>

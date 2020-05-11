@@ -27,5 +27,10 @@ code {
 }
 
 .footer-bg{
-  color:blueviolet;
+  background-color:blueviolet;
+  position:fixed;
+  text-align:center;
+  width:100%;
+  left:0;
+  bottom:0;
 }
