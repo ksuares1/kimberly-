@@ -27,6 +27,9 @@ render() {
               <MDBNavLink to="/">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
+              <MDBNavLink to="/about">About</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
               <MDBNavLink to="/contact">Contact</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -35,7 +38,7 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">About</div>
+                  <div className="d-none d-md-inline">Blog</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropdown-default">
                   <MDBDropdownItem href="/">Skills</MDBDropdownItem>

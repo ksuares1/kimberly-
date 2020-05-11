@@ -6,7 +6,7 @@ const FooterComponent=()=>{
     return(
         <div>
 <footer className="footer-bg">
-<div className="footer-text">© 2020 Copyright:
+<div className="footer-text">© 2020 Copyright
   <a className="footer-text" href="https://kimberlysuares.com/"> KimberlySuares.com</a>
 </div>
 </footer>
