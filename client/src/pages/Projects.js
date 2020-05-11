@@ -1,10 +1,10 @@
-import React from "react";
-import LightboxPage from "../components/Projects";
+// import React from "react";
+// import LightboxPage from "../components/Projects";
 
-const ProjectPage=() =>{
-    return(
-        <LightboxPage/>
-    )
-}
+// const ProjectPage=() =>{
+//     return(
+//         <LightboxPage/>
+//     )
+// }
 
-export default ProjectPage;
+// export default ProjectPage;

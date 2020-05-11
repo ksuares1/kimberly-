@@ -1,9 +1,12 @@
 import React from "react";
 
-// const HomeComponent =() =>{
-//     return(
+function HomeComponent(){
+    return(
+        <div>
 
-//     )
-// }
+        </div>
 
-// export default HomeComponent;
+    )
+}
+
+export default HomeComponent;

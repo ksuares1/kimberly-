@@ -1,20 +1,21 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from './components/Nav';
 import FooterComponent from './components/Footer';
-import ProjectPage from './pages/Projects';
+import HomePage from './pages/Home';
+// import ProjectPage from './pages/Projects';
 
 function App() {
   return (
     <div className="App">
-      
-      <Router>
+        <Router>
         <div>
       <Navbar/>
       <div>
-        <Route exact path="/" component={HomeComponent}/ >
-        <Route exact path="/portfolio" component={ProjectPage}/>
+        <Route exact path="/" component={HomePage}/ >
+        {/* <Route exact path="/portfolio" component={ProjectPage}/> */}
       
     </div>
     </div>
