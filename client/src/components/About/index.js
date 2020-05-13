@@ -1,11 +1,10 @@
 import React from "react";
 
 
+// function AboutComponent(){
+//     return(
 
 
-function AboutComponent(){
-    return(
-
-    )
-}
-export default AboutComponent;
+//     )
+// }
+// export default AboutComponent;
