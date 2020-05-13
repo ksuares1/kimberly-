@@ -61,4 +61,4 @@ const PortfolioComponent = () => {
   );
 }
 
-export default PorfolioComponent;
+export default PortfolioComponent;
