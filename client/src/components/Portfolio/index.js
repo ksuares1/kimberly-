@@ -18,8 +18,9 @@ const PortfolioComponent = () => {
                     Users are asked a series of questions to determine whether or not they have the cold or flu.
                     Often times people mistake the flu for the common cold, and this is what has led to many
                     deaths. Being able to recognize and differentiate between the cold and flu, will save many lives.
+                    {/* <p href="https://ksuares1.github.io/Project1/"></p> */}
           </MDBCardText>
-          <MDBBtn color="primary" size="md">
+          <MDBBtn href="https://ksuares1.github.io/Project1/" color="primary" size="md">
             Cover Your Sneeze
           </MDBBtn>
         </MDBCardBody>
@@ -31,10 +32,12 @@ const PortfolioComponent = () => {
         <MDBCardBody>
           <MDBCardTitle tag="h5">Anticipate App</MDBCardTitle>
           <MDBCardText>
-            
+          Anticipate is a voice recording app that connects nurses and family members with patients.
+           Nurses are able to sign-up and login to the patient database with back-end languages such as Node.js, Mongodb, and Mongoose. Patients' family members are able to view their family members medications through our database portal.
+           <p></p>
           </MDBCardText>
-          <MDBBtn color="primary" size="md">
-            read more
+          <MDBBtn href="https://github.com/ksuares1/anticipate" color="primary" size="md">
+            Learn More
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
