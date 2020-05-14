@@ -1,64 +1,61 @@
 import React from "react"; 
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
-"mdbreact";
+import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
+
+
 
 const PortfolioComponent = () => {
   return (
-    <MDBContainer>
-      <MDBCarousel
-      activeItem={1}
-      length={3}
-      showControls={true}
-      showIndicators={true}
-      className="z-depth-1"
-    >
-      <MDBCarouselInner>
-        <MDBCarouselItem itemId="1">
-          <MDBView>
-            <img
-              className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-              alt="First slide"
-            />
-          <MDBMask overlay="black-light" />
-          </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Light mask</h3>
-            <p>First text</p>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-        <MDBCarouselItem itemId="2">
-          <MDBView>
-            <img
-              className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-              alt="Second slide"
-            />
-          <MDBMask overlay="black-strong" />
-          </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Strong mask</h3>
-            <p>Second text</p>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-        <MDBCarouselItem itemId="3">
-          <MDBView>
-            <img
-              className="d-block w-100"
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-              alt="Third slide"
-            />
-          <MDBMask overlay="black-slight" />
-          </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
-          </MDBCarouselCaption>
-        </MDBCarouselItem>
-      </MDBCarouselInner>
-    </MDBCarousel>
-    </MDBContainer>
+
+    <MDBCardGroup>
+      <MDBCard>
+        <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
+          overlay="white-slight" />
+        <MDBCardBody>
+          <MDBCardTitle tag="h5">Achoo App</MDBCardTitle>
+          <MDBCardText>
+          Achoo focuses on the general public’s inability to distinguish between
+                    the common cold and flu, and this mishap can lead to severe consequences.
+                    Users are asked a series of questions to determine whether or not they have the cold or flu.
+                    Often times people mistake the flu for the common cold, and this is what has led to many
+                    deaths. Being able to recognize and differentiate between the cold and flu, will save many lives.
+          </MDBCardText>
+          <MDBBtn color="primary" size="md">
+            Cover Your Sneeze
+          </MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard>
+        <MDBCardImage src={require("../../assets/img/doctor-visit.jpg")} alt="Anticipate App" top hover
+          overlay="white-slight" />
+        <MDBCardBody>
+          <MDBCardTitle tag="h5">Anticipate App</MDBCardTitle>
+          <MDBCardText>
+            
+          </MDBCardText>
+          <MDBBtn color="primary" size="md">
+            read more
+          </MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard>
+        <MDBCardImage src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="MDBCard image cap" top hover
+          overlay="white-slight" />
+        <MDBCardBody>
+          <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+          <MDBCardText>
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </MDBCardText>
+          <MDBBtn color="primary" size="md">
+            read more
+          </MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCardGroup>
   );
 }
+
 
 export default PortfolioComponent;

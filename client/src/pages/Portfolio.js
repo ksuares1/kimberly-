@@ -4,6 +4,8 @@ import PortfolioComponent from "../components/Portfolio";
 const PortfolioPage=() =>{
     return(
         <div>
+            <br>
+            </br>
         <PortfolioComponent/>
         </div>
     )
