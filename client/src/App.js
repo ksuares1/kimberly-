@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Router, Route } from "react-router-dom";
 import Navbar from './components/Nav';
 import FooterComponent from './components/Footer';
 import HomePage from './pages/Home';
@@ -14,9 +14,10 @@ function App() {
         <div>
       <Navbar/>
       <div>
+        <Switch>
         <Route exact path="/" component={HomePage}/ >
         <Route exact path="/portfolio" component={PortfolioPage}/> 
-      
+   </Switch>
     </div>
     </div>
     </Router>
