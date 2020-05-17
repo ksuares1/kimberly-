@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Switch, Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/Nav';
 import FooterComponent from './components/Footer';
 import HomePage from './pages/Home';
