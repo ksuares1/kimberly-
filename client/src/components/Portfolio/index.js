@@ -5,7 +5,9 @@ import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText,
 
 const PortfolioComponent = () => {
   return (
-
+    <main>
+    <h1>Portfolio</h1>
+    
     <MDBCardGroup>
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
@@ -57,6 +59,7 @@ const PortfolioComponent = () => {
         </MDBCardBody>
       </MDBCard>
     </MDBCardGroup>
+    </main>
   );
 }
 
