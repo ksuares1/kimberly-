@@ -7,7 +7,8 @@ const PortfolioComponent = () => {
   return (
     <main>
     <h1>Portfolio</h1>
-    
+    <br>
+    </br>
     <MDBCardGroup>
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
