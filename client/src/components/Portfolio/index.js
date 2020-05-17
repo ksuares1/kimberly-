@@ -43,7 +43,7 @@ const PortfolioComponent = () => {
       </MDBCard>
 
       <MDBCard>
-        <MDBCardImage src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="MDBCard image cap" top hover
+        <MDBCardImage src={require("../../assets/img/music-pic.jpg")} alt="Music Quote" top hover
           overlay="white-slight" />
         <MDBCardBody>
           <MDBCardTitle tag="h5">Liri Node App</MDBCardTitle>

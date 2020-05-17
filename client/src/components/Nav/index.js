@@ -9,16 +9,17 @@ import Button from "react-bootstrap/Button";
 function NavBar() {
     return (
         <Navbar bg="light" expand="lg">
+          {/* Add google font to name */}
         <Navbar.Brand href="/">Kimberly Suares</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/about">About</Nav.Link>
              <Nav.Link href="/contact">Contact</Nav.Link> 
-            <NavDropdown title="About" id="basic-nav-dropdown">
+            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
               <NavDropdown.Item href="/portfolio">Portfolio</NavDropdown.Item>
               <NavDropdown.Item href="/skills">Skills</NavDropdown.Item>
-              <NavDropdown.Item href="/patients">Languages</NavDropdown.Item>
+              <NavDropdown.Item href="/languages">Languages</NavDropdown.Item>
               <NavDropdown.Divider />
               {/* <NavDropdown.Item href="/readygo">ReadyGo</NavDropdown.Item> */}
             </NavDropdown>
