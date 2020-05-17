@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
-import Col from "react-bootstrap/Col";
+// import Col from "react-bootstrap/Col";
 
 
 
@@ -11,7 +11,7 @@ const PortfolioComponent = () => {
     <br>
     </br>
     <MDBCardGroup>
-      <Col md={4}>
+     
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
           overlay="white-slight" />
@@ -30,8 +30,8 @@ const PortfolioComponent = () => {
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
-      </Col>
-
+     
+      
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/doctor-visit.jpg")} alt="Anticipate App" top hover
           overlay="white-slight" />
@@ -47,7 +47,7 @@ const PortfolioComponent = () => {
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
-
+    
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/music-pic.jpg")} alt="Music Quote" top hover
           overlay="white-slight" />
