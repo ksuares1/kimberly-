@@ -1,22 +1,23 @@
 import React from "react";
 // import './index.css';
-// import main from '../../assets/img/port-main.jpg';
+import main from '../../assets/img/port-main.jpg';
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 
 const HomeComponent = () => {
     return (
-        <Jumbotron>
-        <h1>Hello, world!</h1>
+       
+        <Jumbotron  style={{backgroundImage:`url(${main})`}}>
+        <h1>Hi! I'm Kimberly Suares a Full Stack Web Developer.</h1>
         <p>
-          This is a simple hero unit, a simple jumbotron-style component for calling
-          extra attention to featured content or information.
+          .
         </p>
         <p>
-          <Button variant="primary">Learn more</Button>
+          <Button variant="primary">Find out more</Button>
         </p>
       </Jumbotron>
-            // <div style={{backgroundImage:`url(${main})`}}/>
+      
+            
     
 
 
