@@ -4,7 +4,11 @@ import HomeComponent from "../components/Home";
 
 const HomePage =()=>{
     return(
+        <div>
+            <br>
+            </br>
         <HomeComponent/>
+        </div>
     )
 }
 
