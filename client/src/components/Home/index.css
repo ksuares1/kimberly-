@@ -2,4 +2,16 @@
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
+    height:25%;
+    
+}
+
+.home-text{
+    text-align: center;
+    color:white;
+}
+
+.home-btn{
+    background-color:white;
+    color:black;
 }
