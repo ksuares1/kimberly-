@@ -6,7 +6,7 @@
 }
 
 .about-text{
-    /* text-align:center; */
+    text-align:center;
     float:right;
     position:fixed;
     font-size: 12;
