@@ -4,3 +4,10 @@
     width:450px;
 
 }
+
+.about-text{
+    text-align:center;
+    float:right;
+    position:fixed;
+    font-size: 12;
+}

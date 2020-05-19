@@ -19,7 +19,9 @@ function AboutComponent() {
             <Row>
             <Col xs={6} md={4}>
                 <img className="about-img" src={require("../../assets/img/profile.JPG")} alt="Kimberly Suares" />
-                <p></p>
+            <p className="about-text" style={{ display: "inline-block", width:'50%', height:'50%'}}>
+                Hi, I'm Kimberly Suares! 
+                I am a Full Stack Web Developer that specializes in health focused applications.</p>
                 </Col>
             </Row>
         </div>
