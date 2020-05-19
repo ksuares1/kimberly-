@@ -6,23 +6,25 @@ import Navbar from './components/Nav';
 import FooterComponent from './components/Footer';
 import HomePage from './pages/Home';
 import PortfolioPage from './pages/Portfolio';
+import AboutComponent from './pages/About';
 
 function App() {
   return (
     <div className="App">
-        <Router>
+      <Router>
         <div>
-      <Navbar/>
-      <div>
-        <Switch>
-        <Route exact path="/" component={HomePage}/ >
-        <Route exact path="/portfolio" component={PortfolioPage}/> 
-   </Switch>
-    </div>
-    </div>
-    </Router>
+          <Navbar />
+          <div>
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/portfolio" component={PortfolioPage} />
+              <Route exact path="/about" component={AboutComponent} />
+            </Switch>
+          </div>
+        </div>
+      </Router>
 
-    <FooterComponent/>
+      <FooterComponent />
     </div>
   );
 }
