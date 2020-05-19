@@ -21,7 +21,7 @@ function AboutComponent() {
                     <img className="about-img" src={require("../../assets/img/profile.JPG")} alt="Kimberly Suares" />
                     <p className="about-text" style={{ display: "inline-block", width: '50%', height: '50%' }}>
                         Hi, I'm Kimberly Suares!
-                        I'm a Full Stack Web Developer that specializes in health focused applications.
+                        I'm a Full Stack Web Developer specializing in health focused applications.
                         My coding journey started almost six years ago, after I took an online business course.
                         I quickly fell in love with creating something from scratch, after completing a Wordpress website as my first homework assignment.
                         During my years of learning to code, I volunteered at a local hospital called New York Presbyterian Brooklyn Methodist, where I visited patients; asked them questions,
