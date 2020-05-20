@@ -17,15 +17,13 @@ const HomeComponent = () => {
            </br>
            <br>
            </br>
-            <h1 className="home-text">Hi! I'm Kimberly Suares a Full Stack Web Developer.</h1>
-            <p>
-                
-        </p>
+             <h1 className="home-text">Hi! I'm Kimberly Suares a Full Stack Web Developer.</h1>
+            
             <p>
                 <Button className="home-btn" href="/about" variant="default">Find out more</Button>
             </p>
-            </div>
-        // </Jumbotron> 
+            </div> 
+      
 
 
 

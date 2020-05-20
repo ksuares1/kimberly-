@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <Navbar />
+            <Navbar />  
           <div>
             <Switch>
               <Route exact path="/" component={HomePage} />
@@ -26,7 +26,7 @@ function App() {
         </div>
       </Router>
 
-      <FooterComponent />
+       <FooterComponent /> 
     </div>
   );
 }
