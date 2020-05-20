@@ -17,21 +17,18 @@ function ContactForm() {
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-    </Form.Text>
       </Form.Group>
 
-      <div className="form-group">
-        <label htmlFor="exampleFormControlTextarea1">
-          Message
+        <div className="form-group">
+            <label htmlFor="exampleFormControlTextarea1">
+         Message
             </label>
-        <textarea
-          className="form-control"
-          id="exampleFormControlTextarea1"
-          rows="5"
-        />
-      </div>
+            <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows="5"
+            />
+        </div>
       <Button variant="primary" type="submit">
         Submit
   </Button>
