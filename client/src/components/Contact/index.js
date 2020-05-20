@@ -32,7 +32,7 @@ function ContactForm() {
             rows="5"
             />
         </div>
-      <Button variant="primary" type="submit">
+      <Button className="button" variant="secondary" type="submit">
         Submit
   </Button>
     </Form>
