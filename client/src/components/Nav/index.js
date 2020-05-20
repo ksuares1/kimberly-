@@ -19,7 +19,7 @@ function NavBar() {
             <NavDropdown title="Portfolio" id="basic-nav-dropdown">
               <NavDropdown.Item href="/portfolio">Portfolio</NavDropdown.Item>
               <NavDropdown.Item href="/skills">Skills</NavDropdown.Item>
-              <NavDropdown.Item href="/languages">Languages</NavDropdown.Item>
+              <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
               <NavDropdown.Divider />
               {/* <NavDropdown.Item href="/readygo">ReadyGo</NavDropdown.Item> */}
             </NavDropdown>
