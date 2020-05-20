@@ -1,13 +1,13 @@
 import React from "react";
 import './index.css';
 import main from '../../assets/img/kick.jpg';
-import Jumbotron from "react-bootstrap/Jumbotron";
+// import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 
 const HomeComponent = () => {
     return (
 
-        <Jumbotron className="container" style={{ backgroundImage: `url(${main})` }}>
+        <div className="container" style={{ backgroundImage: `url(${main})` }}>
            
            <br>
            </br>
@@ -24,7 +24,8 @@ const HomeComponent = () => {
             <p>
                 <Button className="home-btn" href="/about" variant="default">Find out more</Button>
             </p>
-        </Jumbotron>
+            </div>
+        // </Jumbotron> 
 
 
 
