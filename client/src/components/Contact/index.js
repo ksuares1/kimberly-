@@ -19,7 +19,7 @@ function ContactForm() {
 
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Control type="email" placeholder="kimberlyjsuares@gmail.com" />
       </Form.Group>
 
         <div className="form-group">
