@@ -8,7 +8,7 @@ import HomePage from './pages/Home';
 import PortfolioPage from './pages/Portfolio';
 import AboutComponent from './pages/About';
 import ContactPage from "./pages/Contact";
-// import BlogPage from "./pages/Blog";
+import SkillPage from "./pages/Skills";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
               <Route exact path="/portfolio" component={PortfolioPage} />
               <Route exact path="/about" component={AboutComponent} />
               <Route exact path="/contact" component={ContactPage} />
-              {/* <Route exact path="/blog" component={BlogPage} /> */}
+              <Route exact path="/skills" component={SkillPage} /> 
             </Switch>
           </div>
         </div>
