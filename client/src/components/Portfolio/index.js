@@ -2,7 +2,8 @@ import React from "react";
 import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
 // import Col from "react-bootstrap/Col";
 
-
+// Remove materialize
+//  adjust size of cards 
 
 const PortfolioComponent = () => {
   return (
