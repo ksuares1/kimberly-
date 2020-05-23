@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 
 function AboutComponent() {
     return (
-        <main>
+        <main className="about-wrapper">
             <br>
             </br>
             <br>
@@ -42,7 +42,7 @@ function AboutComponent() {
             </br>
 
             <div>
-                <h1 className="text-align:center">Technologies</h1>
+                <h1 className="text-align:center">Skills</h1>
 
                 <div className="skills-conatainer">
                     <div className="featured-on-alerts">

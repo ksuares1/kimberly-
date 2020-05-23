@@ -11,3 +11,16 @@
     position:fixed;
     font-size: 12;
 }
+
+.about-wrapper{
+    font:12;
+}
+@media(max-width:320px){
+
+}
+@media(max-width: 720px){
+
+}
+@media(max-width:1024px){
+
+}
