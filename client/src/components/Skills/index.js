@@ -23,6 +23,7 @@ function SkillCompnent() {
                     <img src={require("../../assets/img/mongodb-icon.png")} alt="Jquery-icon" width="85" height="85" /> 
                     <img src={require("../../assets/img/bootstrap-icon.png")} alt="Bootstrap-icon" width="75" height="75" /> 
                     <img src={require("../../assets/img/react.png")} alt="React-icon" width="75" height="75" /> 
+                    <img src={require("../../assets/img/ajax.jpg")} alt="Ajax-icon" width="75" height="75" /> 
 
                    
                 </div>
