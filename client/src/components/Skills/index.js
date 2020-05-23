@@ -7,7 +7,7 @@ function SkillCompnent() {
             <h1>Skills</h1>
             <br>
             </br>
-            <div className="conatainer">
+            <div className="skills-conatainer">
              {/* style="margin: 0 auto;" */}
                 <div className="featured-on-alerts">
                     <div className="text-center alert alert-success bg-transparent" role="alert">
