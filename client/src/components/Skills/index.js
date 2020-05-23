@@ -4,7 +4,7 @@ import React from "react";
 function SkillCompnent() {
     return (
         <main>
-            <h1>Technologies</h1>
+            <h1>Skills</h1>
             <br>
             </br>
             <br>
