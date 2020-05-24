@@ -5,10 +5,19 @@ import Button from "react-bootstrap/Button";
 // import Navbar from './components/Nav';
 
 
-function ContactForm() {
+class ContactForm extends React.Component{
+  constructor(props) {
+    super(props); 
+    this.state= {
+      name: "",
+      email:"",
+      message:"",
+    }
+  }
+  render(){
   return (
     // add col and row to the outer box of the div
-    <Form className="contact">
+    <Form className="contact" onSubmit={this.handleSubmit}>
       <br>
       </br>
       <h1>Contact Me</h1>
@@ -38,5 +47,6 @@ function ContactForm() {
     </Form>
 
   )
+}
 }
 export default ContactForm;
