@@ -20,24 +20,24 @@ class ContactForm extends React.Component {
     e.preventDefault();
 
     axios({
-      method:"Post", 
-      url:"http://localhost:3002/send",
+      method: "Post",
+      url: "http://localhost:3002/send",
       data: this.state
-    }).then( (response)=>{
-      if(response.data.status === 'success'){
+    }).then((response) => {
+      if (response.data.status === 'success') {
         alert("Message Sent.");
         this.resetForm()
-      }else if(response.data.status === 'fail'){
+      } else if (response.data.status === 'fail') {
         alert("Message failed to send.")
       }
     })
 
   }
 
-  resetForm(){
-    this.setState({name:'', email: '', message:''})
+  resetForm() {
+    this.setState({ name: '', email: '', message: '' })
   }
-  
+
   render() {
     return (
       // add col and row to the outer box of the div
@@ -47,12 +47,12 @@ class ContactForm extends React.Component {
         <h1>Contact Me</h1>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
-          <Form.Control className="contact-name" type="name" placeholder="Enter Name" />
+          <Form.Control className="contact-name" value={this.state.name} onChange={this.onNameChange.bind(this)} type="name" placeholder="Enter Name" />
         </Form.Group>
 
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="kimberlyjsuares@gmail.com" />
+          <Form.Control type="email" value={this.state.email} onChange={this.onEmailChange.bind(this)} placeholder="kimberlyjsuares@gmail.com" />
         </Form.Group>
 
         <div className="form-group">
@@ -63,6 +63,8 @@ class ContactForm extends React.Component {
             className="form-control"
             id="exampleFormControlTextarea1"
             rows="5"
+            value={this.state.message}
+            onChange={this.onMessageChange.bind(this)}
           />
         </div>
         <Button className="button" variant="secondary" type="submit">
@@ -71,6 +73,15 @@ class ContactForm extends React.Component {
       </Form>
 
     )
+  }
+  onNameChange(event) {
+    this.setState({name: event.target.value})
+  }
+  onEmailChange(event) {
+    this.setState({email: event.target.value})
+  }
+  onMessageChange(event) {
+    this.setState({message: event.target.value})
   }
 }
 export default ContactForm;
