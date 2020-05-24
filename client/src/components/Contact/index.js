@@ -33,6 +33,11 @@ class ContactForm extends React.Component {
     })
 
   }
+
+  resetForm(){
+    this.setState({name:'', email: '', message:''})
+  }
+  
   render() {
     return (
       // add col and row to the outer box of the div
