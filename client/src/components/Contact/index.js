@@ -12,7 +12,7 @@ const ContactForm =()=>{
       <Form className="contact" >
         <br>
         </br>
-        <h1>Contact Me</h1>
+        <h1 className="contact-header">Contact Me</h1>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
           <Form.Control className="contact-name"   type="name" placeholder="Enter Name" />

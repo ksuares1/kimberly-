@@ -1,12 +1,12 @@
 import React from "react";
+import './index.css';
+
 
 
 function SkillCompnent() {
     return (
         <main>
-            <h1>Skills</h1>
-            <br>
-            </br>
+            <h1 className="skills-header">Skills</h1>
             <br>
             </br>
             <div className="skills-conatainer">

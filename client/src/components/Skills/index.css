@@ -3,3 +3,10 @@
     height:35%;
     width: 45%; 
 }
+
+.skills-header{
+    font-family:'Merriweather';
+    font-size: 50px;
+    color:blueviolet;
+    font-weight: bold;
+}

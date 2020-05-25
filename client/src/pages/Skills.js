@@ -8,6 +8,9 @@ const SkillPage=()=>{
         <div>
             <br>
             </br>
+            <br>
+            </br>
+
             <SkillCompnent/>
         </div>
     )
