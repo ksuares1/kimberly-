@@ -25,10 +25,10 @@ const PortfolioComponent = () => {
             deaths. Being able to recognize and differentiate between the cold and flu, will save many lives.
                     {/* <p href="https://ksuares1.github.io/Project1/"></p> */}
           </MDBCardText>
-          <MDBBtn className="project" href="https://ksuares1.github.io/Project1/" color="primary" size="md">
+          <MDBBtn className="project" href="https://ksuares1.github.io/Project1/" color="default" size="md">
             Project 
           </MDBBtn>
-          <MDBBtn className="git-btn" href="https://github.com/ksuares1/Project1" color="primary" size="md">
+          <MDBBtn className="git-btn" href="https://github.com/ksuares1/Project1" color="default" size="md">
             Github
           </MDBBtn>
         </MDBCardBody>
@@ -45,10 +45,10 @@ const PortfolioComponent = () => {
             Nurses are able to sign-up and login to the patient database with back-end languages such as Node.js, Mongodb, and Mongoose. Patients' family members are able to view their family members medications through our database portal.
            <p></p>
           </MDBCardText>
-          <MDBBtn className="project" href="https://github.com/ksuares1/anticipate" color="primary" size="md">
+          <MDBBtn className="project" href="https://github.com/ksuares1/anticipate" color="default" size="md">
             Project
           </MDBBtn>
-          <MDBBtn className="git-btn" href="https://github.com/ksuares1/anticipate" color="primary" size="md">
+          <MDBBtn className="git-btn" href="https://github.com/ksuares1/anticipate" color="default" size="md">
             Github
           </MDBBtn>
         </MDBCardBody>
@@ -63,7 +63,7 @@ const PortfolioComponent = () => {
             LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
             This application searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.
           </MDBCardText>
-          <MDBBtn className="git-btn" href="https://github.com/ksuares1/liri-node-app" color="primary" size="md">
+          <MDBBtn className="git-btn" href="https://github.com/ksuares1/liri-node-app" color="default" size="md">
             Github
           </MDBBtn>
         </MDBCardBody>
