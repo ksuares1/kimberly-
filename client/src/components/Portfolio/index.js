@@ -45,8 +45,11 @@ const PortfolioComponent = () => {
             Nurses are able to sign-up and login to the patient database with back-end languages such as Node.js, Mongodb, and Mongoose. Patients' family members are able to view their family members medications through our database portal.
            <p></p>
           </MDBCardText>
-          <MDBBtn href="https://github.com/ksuares1/anticipate" color="primary" size="md">
+          <MDBBtn className="project" href="https://github.com/ksuares1/anticipate" color="primary" size="md">
             Project
+          </MDBBtn>
+          <MDBBtn className="git-btn" href="https://github.com/ksuares1/anticipate" color="primary" size="md">
+            Github
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
