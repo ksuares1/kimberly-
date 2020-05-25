@@ -42,7 +42,7 @@ function AboutComponent() {
             </br>
 
             <div>
-                <h1 className="text-align:center">Skills</h1>
+                <h1 className="skills text-align:center">Skills</h1>
 
                 <div className="skills-conatainer">
                     <div className="featured-on-alerts">

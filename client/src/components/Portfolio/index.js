@@ -25,8 +25,11 @@ const PortfolioComponent = () => {
             deaths. Being able to recognize and differentiate between the cold and flu, will save many lives.
                     {/* <p href="https://ksuares1.github.io/Project1/"></p> */}
           </MDBCardText>
-          <MDBBtn href="https://ksuares1.github.io/Project1/" color="primary" size="md">
+          <MDBBtn className="project" href="https://ksuares1.github.io/Project1/" color="primary" size="md">
             Project 
+          </MDBBtn>
+          <MDBBtn className="git-btn" href="https://github.com/ksuares1/Project1" color="primary" size="md">
+            Github
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
@@ -57,8 +60,8 @@ const PortfolioComponent = () => {
             LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
             This application searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.
           </MDBCardText>
-          <MDBBtn href="https://github.com/ksuares1/liri-node-app" color="primary" size="md">
-            Project
+          <MDBBtn className="git-btn" href="https://github.com/ksuares1/liri-node-app" color="primary" size="md">
+            Github
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
