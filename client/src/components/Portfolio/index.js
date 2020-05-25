@@ -27,7 +27,7 @@ const PortfolioComponent = () => {
                     {/* <p href="https://ksuares1.github.io/Project1/"></p> */}
           </MDBCardText>
           <MDBBtn href="https://ksuares1.github.io/Project1/" color="primary" size="md">
-            Cover Your Sneeze
+            Project 
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
@@ -44,7 +44,7 @@ const PortfolioComponent = () => {
            <p></p>
           </MDBCardText>
           <MDBBtn href="https://github.com/ksuares1/anticipate" color="primary" size="md">
-            Learn More
+            Project
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
@@ -59,7 +59,7 @@ const PortfolioComponent = () => {
             This application searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.
           </MDBCardText>
           <MDBBtn href="https://github.com/ksuares1/liri-node-app" color="primary" size="md">
-            Learn More
+            Project
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>

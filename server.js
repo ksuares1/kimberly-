@@ -57,7 +57,7 @@ transporter.sendMail(mail, (err, data) => {
                 } else{
                   console.log('Message sent: ' + info.response);
                 }
-        })
+        });
     }
 })
 
