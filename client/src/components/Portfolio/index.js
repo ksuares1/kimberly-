@@ -1,14 +1,13 @@
 import React from "react";
 import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
-// import Col from "react-bootstrap/Col";
+import './index.css';
 
-// Remove materialize
-//  adjust size of cards 
+
 
 const PortfolioComponent = () => {
   return (
     <main>
-    <h1>Portfolio</h1>
+    <h1 className="port-font">Portfolio</h1>
     <br>
     </br>
     <MDBCardGroup>
