@@ -28,9 +28,9 @@ router.post('/send', (req, res, next) => {
     var email = req.body.email
     var message = req.body.message
     var content = `name: ${name} \n email: ${email} \n message: ${message} `
-}
 
-var mail = {
+
+var mail={
     from: name,
     to: 'RECEIVING_EMAIL_ADDRESS_GOES_HERE',  // Change to email address that you want to receive messages on
     subject: 'New Message from Contact Form',
@@ -50,7 +50,7 @@ transporter.sendMail(mail, (err, data) => {
                 from: "<your email address>",
                 to: email,
                 subject: "Submission was successful",
-                text: `Thank you for contacting us!\n\nForm details\nName: ${name}\n Email: ${email}\n Message: ${message}`
+                text: `Thank you for contacting me!\n\nForm details\nName: ${name}\n Email: ${email}\n Message: ${message}`
               }, function(error, info){
                 if(error) {
                   console.log(error);
@@ -67,3 +67,4 @@ app.use(cors())
 app.use(express.json())
 app.use('/', router)
 app.listen(3002)
+});
