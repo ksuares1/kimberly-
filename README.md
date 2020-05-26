@@ -9,4 +9,3 @@ Hi! I'm Kimberly Suares, Full Stack Web Developer and cookbook fanatic. This is 
 - Javascript
 - Materialize
 
-## Getting Started
