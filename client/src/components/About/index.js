@@ -5,7 +5,8 @@ import Row from "react-bootstrap/Row";
 
 
 
-function AboutComponent() {
+const AboutComponent=()=> {
+
     return (
         <main className="about-wrapper">
             <br>
@@ -19,8 +20,8 @@ function AboutComponent() {
             <Row>
                 <Col xs={6} md={4}>
                     <img className="about-img" src={require("../../assets/img/profile.JPG")} alt="Kimberly Suares" />
-                    <div className="text-wrapper">
-                        <p className="about-text" style={{ display: "inline-block", width: '50%', height: '50%' }}>
+                    <div className="text-wrapper" style={{display:'flex-direction'}}>
+                        <p className="about-text" style={{width:'50%', height: '50%'}}>
                             Hi, I'm Kimberly Suares!
                             I'm a Full Stack Web Developer specializing in health focused applications.
 

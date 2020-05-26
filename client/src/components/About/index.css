@@ -1,17 +1,19 @@
 .about-img{
     float:left; 
-    height:350px;
-    width:400px;
+    height:325px;
+    width:350px;
+
 }
 
 .about-text{
     text-align:center;
-    float:right;
+    /* float:right; */
     position:fixed;
-    font-size: 12;
+    font-size: 1;
+    display:inline;
 }
 
-.about-wrapper{
+/* .about-wrapper{
     font:12;
 }
 @media(max-width:320px){
@@ -22,7 +24,7 @@
 }
 @media(max-width:1024px){
 
-}
+} */
 
 .skills{
     font-family:'Merriweather';
