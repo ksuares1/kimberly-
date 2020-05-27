@@ -9,3 +9,14 @@ Hi! I'm Kimberly Suares, Full Stack Web Developer and cookbook fanatic. This is 
 - Javascript
 - Materialize
 
+## Prerequistes
+The following on libaries that you will have to install in order for this application to work. 
+``` npx create-react-app```
+
+``` npm i ```
+
+``` npm init -y ```
+
+``` npm i express ```
+
+``` npm install react-router-dom ```
