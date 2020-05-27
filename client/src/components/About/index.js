@@ -18,7 +18,7 @@ const AboutComponent=()=> {
             <br>
             </br>
             <Row>
-                <Col xs={6} md={4}>
+                 <Col xs={6} md={4}> 
                     <img className="about-img" src={require("../../assets/img/profile.JPG")} alt="Kimberly Suares" />
                     <div className="text-wrapper" style={{display:'flex-direction'}}>
                         <p className="about-text" style={{width:'50%', height: '50%'}}>
@@ -33,7 +33,7 @@ const AboutComponent=()=> {
                             Today, I build applications to help users create healthier lifestyles, establish a deeper understanding of their medical health, and connection with their doctor's.
                 As a graduate of Columbia University's Coding Engineering Bootcamp, I have developed invaluable skills and knowledge in a variety of coding languages such as: HTML5, CSS, JavaScript, JQuery, Bootstrap, Mongodb, Express, Node.js, Sequelize, AJAX/Axios, and more. </p>
                     </div>
-                </Col>
+                 </Col> 
             </Row>
             <br>
             </br>
