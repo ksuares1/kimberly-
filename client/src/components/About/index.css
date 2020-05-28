@@ -1,16 +1,13 @@
 .about-img{
-    float:left; 
     height:350px;
     width:400px;
 
 }
 
 .about-text{
-    text-align:center;
+    /* text-align:center; */
     /* float:right; */
-    position:fixed;
     font-size: 1;
-    display:inline;
 }
 
 /* .about-wrapper{

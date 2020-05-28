@@ -2,26 +2,24 @@ import React from "react";
 import './index.css';
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-
+import Container from "react-bootstrap/Container";
 
 
 const AboutComponent=()=> {
 
     return (
-        <main className="about-wrapper">
-            <br>
-            </br>
-            <br>
-            </br>
-            <br>
-            </br>
-            <br>
-            </br>
+        <Container className="about-wrapper" style={{paddingTop:"2%"}}>
+            
             <Row>
-                 <Col xs={6} md={4}> 
+                 <Col xs={12} md={4}> 
                     <img className="about-img" src={require("../../assets/img/profile.JPG")} alt="Kimberly Suares" />
-                    <div className="text-wrapper" style={{display:'flex'}}>
-                        <p className="about-text" style={{ width:'50%', height: '50%'}}>
+                    </Col>
+                    <Col xs={12} md={1}>
+                        </Col>
+                    <Col md={6}>
+                        
+                    <div className="text-wrapper">
+                        <p className="about-text">
                             Hi, I'm Kimberly Suares!
                             I'm a Full Stack Web Developer specializing in health focused applications.
 
@@ -63,7 +61,7 @@ const AboutComponent=()=> {
                     </div>
                 </div>
             </div>
-        </main>
+        </Container>
 
 
 
