@@ -10,9 +10,8 @@ const PortfolioComponent = () => {
     <h1 className="port-font">Portfolio</h1>
     <br>
     </br>
-    <MDBCardGroup>
-     
-      <MDBCard>
+    <MDBCardGroup className="port-size" style={{width: "75rem"}}>
+      <MDBCard >
         <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
           overlay="white-slight" />
         <MDBCardBody>
@@ -35,7 +34,7 @@ const PortfolioComponent = () => {
       </MDBCard>
      
       
-      <MDBCard>
+      <MDBCard >
         <MDBCardImage src={require("../../assets/img/doctor-visit.jpg")} alt="Anticipate App" top hover
           overlay="white-slight" />
         <MDBCardBody>

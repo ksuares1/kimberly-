@@ -13,3 +13,9 @@
     background-color: blueviolet;
     color:white;
 }
+
+.port-size{
+    text-align: center;
+    margin: auto;
+    /* float:right; */
+}
