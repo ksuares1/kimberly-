@@ -1,6 +1,7 @@
 .about-img{
     height:350px;
     width:400px;
+    justify-content: center center;
 
 }
 
@@ -10,18 +11,7 @@
     font-size: 1;
 }
 
-/* .about-wrapper{
-    font:12;
-}
-@media(max-width:320px){
 
-}
-@media(max-width: 720px){
-
-}
-@media(max-width:1024px){
-
-} */
 
 .skills{
     font-family:'Merriweather';

@@ -16,7 +16,7 @@ const AboutComponent=()=> {
                     </Col>
                     <Col xs={12} md={1}>
                         </Col>
-                    <Col md={6}>
+                    <Col md={7}>
                         
                     <div className="text-wrapper">
                         <p className="about-text">
