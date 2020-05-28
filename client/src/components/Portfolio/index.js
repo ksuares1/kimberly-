@@ -10,7 +10,7 @@ const PortfolioComponent = () => {
     <Container style={{paddingTop:"2%"}}>
     <h1 className="port-font">Portfolio</h1>
     <Row>
-      <Col>
+      <Col xs={2} md={4}>
     <MDBCardGroup className="port-size" style={{width: "75rem"}}>
       <MDBCard >
         <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
