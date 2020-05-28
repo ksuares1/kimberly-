@@ -1,12 +1,12 @@
 import React from "react";
 import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
 import './index.css';
-
+import Container from 'react-bootstrap/Container';
 
 
 const PortfolioComponent = () => {
   return (
-    <main>
+    <Container style={{paddingTop:"2%"}}>
     <h1 className="port-font">Portfolio</h1>
     <br>
     </br>
@@ -68,7 +68,7 @@ const PortfolioComponent = () => {
         </MDBCardBody>
       </MDBCard>
     </MDBCardGroup>
-    </main>
+    </Container>
   );
 }
 
