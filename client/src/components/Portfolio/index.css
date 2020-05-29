@@ -14,10 +14,14 @@
     color:white;
 }
 
- .port-size{
+ .portSize{
      text-align: center; 
         margin: auto; 
         height:35% ;
         width:55%;
     
 } 
+
+.portHeader{
+    padding-top: 2%;
+}
