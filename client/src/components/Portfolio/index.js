@@ -1,17 +1,18 @@
 import React from "react";
 import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
 import './index.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
 const PortfolioComponent = () => {
   return (
-    <Container style={{paddingTop:"2%"}}>
+    <main>
+  
     <h1 className="port-font">Portfolio</h1>
-    <Row>
-      <Col xs={2} md={4}>
-    <MDBCardGroup className="port-size" style={{width: "75rem"}}>
+    
+
+     <MDBCardGroup className="port-size"> 
       <MDBCard >
         <MDBCardImage src={require("../../assets/img/achoo-cold.jpg")} alt="Achoo App" top hover
           overlay="white-slight" />
@@ -70,9 +71,9 @@ const PortfolioComponent = () => {
         </MDBCardBody>
       </MDBCard>
     </MDBCardGroup>
-     </Col>
-     </Row>
-    </Container>
+     {/* </Col> */}
+     {/* </Row> */}
+    </main> 
   );
 }
 

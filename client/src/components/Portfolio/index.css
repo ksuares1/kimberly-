@@ -14,9 +14,10 @@
     color:white;
 }
 
-/* .port-size{ */
-    /* text-align: center; */
-    /* margin: auto; */
-    /* height:35% */
-    /* float:right; */
-/* } */
+ .port-size{
+     text-align: center; 
+        margin: auto; 
+        height:35% ;
+        width:55%;
+    
+} 
