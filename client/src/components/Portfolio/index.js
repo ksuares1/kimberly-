@@ -75,7 +75,7 @@ const PortfolioComponent = () => {
             </MDBCardText>
             <MDBBtn
               className="project"
-              href="https://github.com/ksuares1/anticipate"
+              // href="https://github.com/ksuares1/anticipate"
               color="default"
               size="md"
             >

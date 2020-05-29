@@ -1,8 +1,9 @@
 import React from "react";
+import './index.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Form from "react-bootstrap/Form";
+// import Form from "react-bootstrap/Form";
 // import FormControl from "react-bootstrap/FormControl";
 // import Button from "react-bootstrap/Button";
 
@@ -24,11 +25,10 @@ function NavBar() {
               {/* <NavDropdown.Item href="/readygo">ReadyGo</NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
-           <Form inline>
-          <i className="fab fa-github fa-xs"></i>
-          <i className="fab fa-twitter-square fa-xs"></i>
-          <i className="fab fa-linkedin fa-xs"></i> 
-           </Form> 
+           {/* <div className="icons">
+           <img className="git" href="https://github.com/ksuares1" src={require("../../assets/img/github.png")} alt="Github-icon" />
+           <img className="twitter" href="" src={require("../../assets/img/twitter.png")} alt="Twitter-icon" />
+           </div>  */}
         </Navbar.Collapse>
       </Navbar>
 
