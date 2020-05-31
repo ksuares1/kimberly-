@@ -13,6 +13,9 @@ const ContactForm =()=>{
         <br>
         </br>
         <h1 className="contact-header">Contact Me</h1>
+        <p className="form-connect">Connect with me at kimberlyjsuares@gmail.com</p>
+        <br>
+        </br>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
           <Form.Control className="contact-name"   type="name" placeholder="Enter Name" />
