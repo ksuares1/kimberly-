@@ -29,7 +29,8 @@ const AboutComponent=()=> {
                             and provided them with information about their care once they left the hospital. This hospital used very little technology to interact with its patients, and that's when I realized how technology could effectively change patients lives!</p>
 
                             Today, I build applications to help users create healthier lifestyles, establish a deeper understanding of their medical health, and connection with their doctor's.
-                As a graduate of Columbia University's Coding Engineering Bootcamp, I have developed invaluable skills and knowledge in a variety of coding languages such as: HTML5, CSS, JavaScript, JQuery, Bootstrap, Mongodb, Express, Node.js, Sequelize, AJAX/Axios, and more. </p>
+              
+                  As a graduate of Columbia University's Coding Engineering Bootcamp, I have developed invaluable skills and knowledge in a variety of coding languages such as: HTML5, CSS, JavaScript, JQuery, Bootstrap, Mongodb, Express, Node.js, Sequelize, AJAX/Axios, and more. </p>
                     </div>
                  </Col> 
             </Row>
