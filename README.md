@@ -27,3 +27,6 @@ The following on libaries that you will have to install in order for this applic
 ``` npm install react-router-dom ```
 
 ```npm install --save mdbreact ```
+
+## Live Recording
+https://drive.google.com/file/d/1_u4iAL5Q_nknCvaBaFeUVwc9xw7x7E6B/view
