@@ -1,7 +1,7 @@
 # Portfolio
 
 Hi! I'm Kimberly Suares, Full Stack Web Developer and cookbook fanatic. This is my portfolio that I created using React.js. 
-![img_2537](https://user-images.githubusercontent.com/44280043/84090283-551c7f00-a9bf-11ea-8edf-15aff176ea5d.jpg)
+![img_2581](https://user-images.githubusercontent.com/44280043/84090320-73827a80-a9bf-11ea-849a-d69fba7f3cd6.jpg)
 
 
 ## Technologies
