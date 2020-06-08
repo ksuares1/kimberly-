@@ -13,7 +13,7 @@ const ContactForm =()=>{
         <br>
         </br>
         <h1 className="contact-header">Contact Me</h1>
-        <p className="form-connect">Connect with me at kimberlyjsuares@gmail.com</p>
+        <p className="form-connect">Connect with me @ kimberlyjsuares@gmail.com</p>
         <br>
         </br>
         <Form.Group controlId="formBasicEmail">
